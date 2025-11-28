@@ -23,6 +23,7 @@ int main()
 	int a, b, s, p;
 	cout << "Enter the value of the variable  a=";
 	cin >> a;
+	cout <<" changes "<<a;
 	cout << "Enter the value of the variable b=";
 	cin >> b;
 	s = summa(a, b);
