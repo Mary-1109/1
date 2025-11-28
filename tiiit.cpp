@@ -15,7 +15,7 @@ double df(double x) {
 }
 
 int main() {
-    double x = -1.5;  // Начальное приближение1 коммент
+    double x = -1.5;  // Начальное приближение1 
     double x2 = 0.5; // Начальное приближение2
     double eps = 0.01;
 
@@ -25,7 +25,7 @@ int main() {
     for (int i = 1; i <= 10; i++) {
         double x_new = x - f(x) / df(x);
 
-        cout << "Step " << i << ": x = " << x_new;
+        cout << "Step next" << i << ": x = " << x_new;
         cout << ", f(x) = " << f(x_new) << endl;
 
         if (fabs(x_new - x) < eps) {
